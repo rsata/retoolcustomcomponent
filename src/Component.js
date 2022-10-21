@@ -1,8 +1,9 @@
-const Component = ({ triggerQuery, model, modelUpdate }) => {
+const Component = (props) => {
+  console.log(props)
   return (
     <>
-      hi
-      {JSON.stringify(model)}
+      hello
+      {JSON.stringify(props)}
     </>
   )
 }
