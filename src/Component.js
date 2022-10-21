@@ -1,7 +1,8 @@
-const Component = ({}) => {
+const Component = ({ triggerQuery, model, modelUpdate }) => {
   return (
     <>
       hi
+      {JSON.stringify(model)}
     </>
   )
 }
