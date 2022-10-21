@@ -2,7 +2,7 @@ const Component = (props) => {
   console.log(props)
   return (
     <>
-      hello
+      hello2
     </>
   )
 }
