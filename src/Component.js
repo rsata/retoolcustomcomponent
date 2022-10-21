@@ -3,7 +3,6 @@ const Component = (props) => {
   return (
     <>
       hello
-      {JSON.stringify(props)}
     </>
   )
 }
